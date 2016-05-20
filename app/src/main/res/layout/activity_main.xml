@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="00"
+    android:layout_weight="1"
+    android:id="@+id/resultText"
+    android:textSize="60dp" />
+
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="7"
+        android:tag="7"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="numClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="8"
+        android:tag="8"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="numClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="9"
+        android:tag="9"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="numClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="÷"
+        android:tag="3"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="markClick"/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="6"
+        android:tag="6"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="numClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="5"
+        android:tag="5"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="numClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="4"
+        android:tag="4"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="numClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="✕"
+        android:tag="2"
+        android:textSize="40dp"
+        android:layout_weight="1"
+        android:onClick="markClick"/>
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:tag="3"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="numClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:tag="2"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="numClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:tag="1"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="numClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:tag="1"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="markClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C"
+            android:tag="C"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="ClearClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:tag="0"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="numClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="="
+            android:tag="equal"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="equalClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:tag="0"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:onClick="markClick"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
